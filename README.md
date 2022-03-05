@@ -3,7 +3,7 @@
 # This is project is still in progress and not done 
 
 # Goal of the project
-This project was intended to make me learn and explore a world I have not worked with before and that is React the project. The idea is that one should search for Animes and you can see detailed info about the anime but also you can save the anime into categories like favorites, currently watching ... and so on but it also extended further to create a custom backend that supports CRUD operations where currently only CRU is supported.
+This project was intended to make me learn and explore a world I have not worked with before and that is React the project. The idea is that one should search for Animes and you can see detailed info about the anime but also you can save the anime into categories like favorites, currently watching ... and so on but it also extended further to create a custom backend that supports CRUD operations where currently only CRU is supported. (Note the code will be private)
 
 # Progress sofar
 Currently, the frontend is done It is built using React, Typescript, and scss. The animes are fetched using kitsu API using Axios when doing fetching. The backend works using node js with Express and here again Typescript is used. My database is MongoDB ie NoSQL database and I use mongoose as a library to make it easier to communicate. Users can register and login and I use JWT to allow the user to reach functionality that is only available when one is signed in. I have implemented sessions that are saved using Redis. Users can also save animes into the specified categories that currently exists and these are saved in the DB.
